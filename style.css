@@ -8,3 +8,26 @@
 html {
   font-size: 62.5%;
 }
+body {
+  background-image: url("IMG_4903.JPG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 1.2rem 3.2rem;
+}
+.login-btn {
+  font-size: 1.8rem;
+  outline: none;
+  display: flex;
+  padding: 0.8rem 1.6rem;
+  border-radius: 11px;
+  cursor: pointer;
+  border: none;
+  background-color: aliceblue;
+  margin-left: auto;
+}
