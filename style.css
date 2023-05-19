@@ -55,6 +55,7 @@ section {
   color: white;
   padding: 3.2rem 2.4rem;
   backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
   width: 35rem;
   position: absolute;
   top: 50%;
