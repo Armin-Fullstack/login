@@ -69,6 +69,7 @@ section {
   gap: 2.4rem;
   width: 100%;
 }
+
 .form-title{
   font-size: 2.4rem;
   font-weight: 700;
@@ -151,6 +152,10 @@ section {
     opacity: 1;
   }
 }
+.hidden {
+  display: none;
+}
+
 @media (max-width: 350px) {
   .form-container {
     border: none;

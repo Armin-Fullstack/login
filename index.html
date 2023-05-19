@@ -16,11 +16,11 @@
 <body>
   <section>
     <div class="container">
-      <button class="btn btn--login">Login</button>
+      <button class="btn btn--login">Sign In</button>
     </div>
       <div class="form-container">
-        <form class="form">
-          <h2 class="form-title">Login</h2>
+      <form class="form">
+          <h2 class="form-title">Sign In</h2>
           <div class="input-container">
             <input type="email" required>
             <label>Email</label>
@@ -41,9 +41,37 @@
         <button class="btn">Login</button>
         <div class="register">
           <a href="#">Don't have an account?</a>
-          <a href="#">Register</a>
+          <a href="#" class="sign-up-btn">Sign Up</a>
         </div>
       </form>
+      <form class="form hidden">
+        <h2 class="form-title">Sign Up</h2>
+        <div class="input-container">
+          <input type="text" required>
+          <label>Username</label>
+          <ion-icon class="user-icon" name="user-outline"></ion-icon>
+        </div>
+        <div class="input-container">
+          <input type="email" required>
+          <label>Email</label>
+          <ion-icon class="mail-icon" name="mail-outline"></ion-icon>
+        </div>
+        <div class="input-container">
+          <input type="password" required>
+          <label>Password</label>
+          <ion-icon class="lock-icon" name="lock-closed"></ion-icon>
+        </div>
+          <div class="remember-me">
+            <input type="checkbox">
+            <label >I agree to the terms & conditions</label>
+          </div>
+          <button class="btn">Sign Up</button>
+      <div class="register">
+        <a href="#">Already have an account?</a>
+        <a href="#" class="sign-in-btn">Sign In</a>
+      </div>
+      </div>
+       </form>
     </div>
   </div>
 </section>
